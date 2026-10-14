@@ -1,0 +1,79 @@
+nohup: ignoring input
+[transformers] This model config has set a `rope_parameters['original_max_position_embeddings']` field, to be used together with `max_position_embeddings` to determine a scaling factor. Please set the `factor` field of `rope_parameters`with this ratio instead -- we recommend the use of this field over `original_max_position_embeddings`, as it is compatible with most model architectures.
+Loading weights:   0%|          | 0/194 [00:00<?, ?it/s]Loading weights:  39%|███▉      | 76/194 [00:00<00:00, 748.85it/s]Loading weights:  86%|████████▌ | 167/194 [00:00<00:00, 842.52it/s]Loading weights: 100%|██████████| 194/194 [00:00<00:00, 894.96it/s]
+converted 32 layers, 12,609,792 trainable parameters
+corpus: 18,804,706 tokens -> 18,363 sequences of 1024
+init {'kl': 0.04048864170908928, 'top1_agree': 0.900390625, 'gate_mean': 0.07980096340179443, 'gate_max': 0.2834092080593109}
+[kl] step 10 loss 0.06791 (19s)
+[kl] step 20 loss 0.03629 (39s)
+[kl] step 30 loss 0.13252 (58s)
+[kl] step 40 loss 0.07356 (77s)
+[kl] step 50 loss 0.03574 (96s)
+[kl] eval {'kl': 0.039243750274181366, 'top1_agree': 0.90625, 'gate_mean': 0.0804591029882431, 'gate_max': 0.28786376118659973}
+[kl] step 60 loss 0.06578 (116s)
+[kl] step 70 loss 0.03683 (135s)
+[kl] step 80 loss 0.11016 (154s)
+[kl] step 90 loss 0.04171 (174s)
+[kl] step 100 loss 0.03100 (193s)
+[kl] eval {'kl': 0.03870241343975067, 'top1_agree': 0.9130859375, 'gate_mean': 0.08100541681051254, 'gate_max': 0.28835341334342957}
+[kl] step 110 loss 0.02852 (212s)
+[kl] step 120 loss 0.07023 (232s)
+[kl] step 130 loss 0.04792 (251s)
+[kl] step 140 loss 0.03819 (270s)
+[kl] step 150 loss 0.05433 (289s)
+[kl] eval {'kl': 0.038138844072818756, 'top1_agree': 0.9111328125, 'gate_mean': 0.08143453299999237, 'gate_max': 0.288133829832077}
+[kl] step 160 loss 0.04600 (309s)
+[kl] step 170 loss 0.03129 (328s)
+[kl] step 180 loss 0.07982 (347s)
+[kl] step 190 loss 0.08528 (367s)
+[kl] step 200 loss 0.05203 (386s)
+[kl] eval {'kl': 0.037481121718883514, 'top1_agree': 0.904296875, 'gate_mean': 0.08190669864416122, 'gate_max': 0.28979605436325073}
+[kl] step 210 loss 0.05792 (405s)
+[kl] step 220 loss 0.13798 (425s)
+[kl] step 230 loss 0.04510 (444s)
+[kl] step 240 loss 0.02699 (463s)
+[kl] step 250 loss 0.02664 (482s)
+[kl] eval {'kl': 0.03678104281425476, 'top1_agree': 0.908203125, 'gate_mean': 0.08229626715183258, 'gate_max': 0.2891635000705719}
+[kl] step 260 loss 0.05234 (502s)
+[kl] step 270 loss 0.09037 (521s)
+[kl] step 280 loss 0.10812 (540s)
+[kl] step 290 loss 0.04612 (560s)
+[kl] step 300 loss 0.03184 (579s)
+[kl] eval {'kl': 0.03659655153751373, 'top1_agree': 0.904296875, 'gate_mean': 0.08281513303518295, 'gate_max': 0.2896294593811035}
+[kl] step 310 loss 0.02399 (598s)
+[kl] step 320 loss 0.03872 (618s)
+[kl] step 330 loss 0.03301 (637s)
+[kl] step 340 loss 0.05849 (656s)
+[kl] step 350 loss 0.04720 (675s)
+[kl] eval {'kl': 0.03583649545907974, 'top1_agree': 0.9033203125, 'gate_mean': 0.08347304165363312, 'gate_max': 0.2928082346916199}
+[kl] step 360 loss 0.04917 (695s)
+[kl] step 370 loss 0.02787 (714s)
+[kl] step 380 loss 0.04368 (733s)
+[kl] step 390 loss 0.03761 (753s)
+[kl] step 400 loss 0.06603 (772s)
+[kl] eval {'kl': 0.03549891710281372, 'top1_agree': 0.9091796875, 'gate_mean': 0.08390013873577118, 'gate_max': 0.29998043179512024}
+[kl] step 410 loss 0.11362 (791s)
+[kl] step 420 loss 0.06949 (811s)
+[kl] step 430 loss 0.07702 (830s)
+[kl] step 440 loss 0.04157 (849s)
+[kl] step 450 loss 0.03824 (869s)
+[kl] eval {'kl': 0.03513897955417633, 'top1_agree': 0.9140625, 'gate_mean': 0.08421096205711365, 'gate_max': 0.306452214717865}
+[kl] step 460 loss 0.14399 (888s)
+[kl] step 470 loss 0.17185 (907s)
+[kl] step 480 loss 0.03167 (927s)
+[kl] step 490 loss 0.10141 (946s)
+[kl] step 500 loss 0.02956 (965s)
+[kl] eval {'kl': 0.03533812612295151, 'top1_agree': 0.916015625, 'gate_mean': 0.08477306365966797, 'gate_max': 0.3125181198120117}
+[kl] step 510 loss 0.02999 (985s)
+[kl] step 520 loss 0.07562 (1004s)
+[kl] step 530 loss 0.03807 (1023s)
+[kl] step 540 loss 0.01831 (1042s)
+[kl] step 550 loss 0.03225 (1062s)
+[kl] eval {'kl': 0.03457815945148468, 'top1_agree': 0.919921875, 'gate_mean': 0.08518479764461517, 'gate_max': 0.3162671625614166}
+[kl] step 560 loss 0.08041 (1081s)
+[kl] step 570 loss 0.03525 (1100s)
+[kl] step 580 loss 0.05849 (1120s)
+[kl] step 590 loss 0.04029 (1139s)
+[kl] step 600 loss 0.04809 (1158s)
+[kl] eval {'kl': 0.034600675106048584, 'top1_agree': 0.9189453125, 'gate_mean': 0.08581209182739258, 'gate_max': 0.32121044397354126}
+saved adapter to adapter_v2.pt

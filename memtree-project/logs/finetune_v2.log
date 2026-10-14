@@ -1,0 +1,40 @@
+nohup: ignoring input
+[transformers] This model config has set a `rope_parameters['original_max_position_embeddings']` field, to be used together with `max_position_embeddings` to determine a scaling factor. Please set the `factor` field of `rope_parameters`with this ratio instead -- we recommend the use of this field over `original_max_position_embeddings`, as it is compatible with most model architectures.
+Loading weights:   0%|          | 0/194 [00:00<?, ?it/s]Loading weights:  48%|████▊     | 94/194 [00:00<00:00, 932.33it/s]Loading weights: 100%|██████████| 194/194 [00:00<00:00, 992.12it/s]
+loaded distilled adapter adapter_v2.pt
+trainable parameters: 11,558,912
+4978 train / 261 eval examples (935 reference, 0 too long, skipped)
+before {'loss': 3.2311331936625685, 'ref_decision_acc': 0.7969348659003831}
+step 10 loss 5.1281 lr 2.19e-05 (11s)
+step 20 loss 2.2630 lr 4.15e-05 (23s)
+step 30 loss 1.4738 lr 6.05e-05 (34s)
+step 40 loss 1.1753 lr 7.85e-05 (45s)
+step 50 loss 0.7442 lr 9.33e-05 (55s)
+step 60 loss 0.7854 lr 9.05e-05 (66s)
+step 70 loss 0.6288 lr 8.72e-05 (77s)
+step 80 loss 0.3688 lr 8.35e-05 (88s)
+step 90 loss 0.4357 lr 7.94e-05 (98s)
+step 100 loss 0.3256 lr 7.50e-05 (109s)
+step 110 loss 0.2698 lr 7.03e-05 (120s)
+step 120 loss 0.2807 lr 6.55e-05 (131s)
+step 130 loss 0.3864 lr 6.04e-05 (142s)
+step 140 loss 0.3079 lr 5.52e-05 (152s)
+step 150 loss 0.2095 lr 5.00e-05 (163s)
+step 160 loss 0.3565 lr 4.48e-05 (174s)
+step 170 loss 0.2200 lr 3.96e-05 (185s)
+step 180 loss 0.2178 lr 3.45e-05 (196s)
+step 190 loss 0.3650 lr 2.97e-05 (206s)
+step 200 loss 0.2572 lr 2.50e-05 (217s)
+eval {'loss': 0.24510468035522434, 'ref_decision_acc': 0.9961685823754789}
+step 210 loss 0.2034 lr 2.06e-05 (256s)
+step 220 loss 0.2489 lr 1.65e-05 (267s)
+step 230 loss 0.3353 lr 1.28e-05 (278s)
+step 240 loss 0.2644 lr 9.55e-06 (289s)
+step 250 loss 0.2500 lr 6.70e-06 (299s)
+step 260 loss 0.1943 lr 4.32e-06 (310s)
+step 270 loss 0.2569 lr 2.45e-06 (321s)
+step 280 loss 0.2010 lr 1.09e-06 (332s)
+step 290 loss 0.2702 lr 2.74e-07 (343s)
+step 300 loss 0.1782 lr 0.00e+00 (353s)
+eval {'loss': 0.21967323501576524, 'ref_decision_acc': 1.0}
+saved fine-tune to finetune_v2.pt
