@@ -1,5 +1,5 @@
 # MemTree — The persistent memory for language models
-
+Base model for checkpoints used: https://huggingface.co/richardyoung/Phi-4-mini-instruct-heretic
 **A memory that lives *outside* attention.** memtree gives a language model a
 durable, byte-exact, fading memory — a logarithmic geometric tree tended by a
 *watchdog* that owns every memory operation — and converts the model's
